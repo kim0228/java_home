@@ -1,0 +1,1078 @@
+!SESSION 2019-06-22 19:46:13.225 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-22 19:46:32.210
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-22 19:46:50.999
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rlatj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2019-06-22 19:47:05.803
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2019-06-22 19:47:05.809
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-06-22 19:49:00.767 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/rlatj/eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui 2 0 2019-06-22 19:49:08.626
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-06-22 19:49:08.627
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-22 19:49:08.768
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-06-22 19:49:09.174
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2019-06-22 19:49:09.207
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-22 19:49:16.069
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rlatj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2019-06-22 19:49:17.463
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2019-06-22 19:49:17.468
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:53:03.001
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:53:03.001
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.001
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.001
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.001
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.001
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:53:03.001
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.001
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.001
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.001
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.001
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.001
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.001
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.002
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.002
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:53:03.055
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:53:03.055
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.055
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.055
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.055
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.055
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:53:03.055
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.055
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.055
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.055
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.055
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.055
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.055
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.055
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.055
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:53:03.137
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:53:03.137
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.137
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.137
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.137
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.137
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:53:03.137
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.137
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.137
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.137
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.137
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.137
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.137
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.137
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.137
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:53:03.142
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:53:03.142
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.142
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.142
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.142
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:53:03.142
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:53:03.142
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.142
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.142
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.142
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.142
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.142
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:53:03.142
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.142
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:53:03.142
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+!SESSION 2019-06-22 19:54:20.861 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-22 19:54:24.063
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-22 19:54:32.160
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rlatj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:56:20.727
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:56:20.727
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.727
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.728
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.728
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.728
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:56:20.728
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.728
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.728
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.728
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.728
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.728
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.728
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.728
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.728
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:56:20.759
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:56:20.759
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.759
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.759
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.759
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.759
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:56:20.759
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.759
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.759
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.759
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.759
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.759
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.759
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.759
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.759
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:56:20.849
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:56:20.849
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.849
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.849
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.849
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.849
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:56:20.849
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.849
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.849
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.849
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.849
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.849
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.849
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.849
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.849
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2019-06-22 19:56:20.854
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 19:56:20.854
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.854
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.854
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.854
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 19:56:20.854
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2019-06-22 19:56:20.854
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.854
+!MESSAGE Software being installed: Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.854
+!MESSAGE Software currently installed: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.854
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.854
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.854
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2019-06-22 19:56:20.854
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.854
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2019-06-22 19:56:20.854
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2019-06-22 20:02:26.644
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2019-06-22 20:02:26.644
+!MESSAGE session context was:(profile=C__Users_rlatj_eclipse_java-2019-03_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-22 20:02:26.644
+!MESSAGE No repository found containing: osgi.bundle,org.apache.httpcomponents.httpclient.win,4.5.6.v20190213-1947
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:06:21.768
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:06:21.768
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.768
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.768
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.768
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.768
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:06:21.768
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.768
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.768
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:06:21.796
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:06:21.796
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.796
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.796
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.796
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.796
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:06:21.796
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.796
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.796
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:06:21.887
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:06:21.887
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.887
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.887
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.887
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.887
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:06:21.887
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.887
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.887
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:06:21.892
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:06:21.892
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.892
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.892
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.892
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:06:21.892
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:06:21.892
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.892
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:06:21.892
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:11:21.019
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:11:21.019
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.019
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.019
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.019
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.019
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:11:21.019
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.019
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.019
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:11:21.047
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:11:21.047
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.047
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.047
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.047
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.047
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:11:21.047
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.047
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.047
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:11:21.172
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:11:21.172
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.172
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.172
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.172
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.172
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:11:21.172
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.172
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.172
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:11:21.177
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:11:21.177
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.177
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.177
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.177
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:11:21.177
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:11:21.177
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.177
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:11:21.177
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2019-06-22 20:11:55.344
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2019-06-22 20:11:55.344
+!MESSAGE session context was:(profile=C__Users_rlatj_eclipse_java-2019-03_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-06-22 20:11:55.344
+!MESSAGE No repository found containing: osgi.bundle,org.apache.httpcomponents.httpclient.win,4.5.6.v20190213-1947
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:16:19.928
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:16:19.928
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.928
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.928
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.928
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.928
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:16:19.928
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:19.928
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:19.928
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:16:19.957
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:16:19.957
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.957
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.957
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.957
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:19.957
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:16:19.957
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:19.957
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:19.957
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:16:20.046
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:16:20.046
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.046
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.046
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.046
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.046
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:16:20.046
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:20.046
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:20.046
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2019-06-22 20:16:20.051
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2019-06-22 20:16:20.051
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.051
+!MESSAGE "Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.051
+!MESSAGE "com.jcraft.jzlib" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.051
+!MESSAGE "m2e - slf4j over logback logging (Optional)" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2019-06-22 20:16:20.051
+!MESSAGE "m2e - Maven Integration for Eclipse (includes Incubating components)" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2019-06-22 20:16:20.051
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:20.051
+!MESSAGE Software being installed: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:16:20.051
+!MESSAGE Missing requirement: m2e-wtp - Maven Integration for WTP 1.4.2.20190530-0057 (org.eclipse.m2e.wtp.feature.feature.group 1.4.2.20190530-0057) requires 'org.eclipse.equinox.p2.iu; org.eclipse.jst.enterprise_ui.feature.feature.group 3.2.0' but it could not be found
+!SESSION 2019-06-22 20:16:46.225 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/rlatj/eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-22 20:17:00.514
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-06-22 20:17:01.731
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-22 20:17:01.731
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7405e77f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3449cddf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-22 20:17:08.178
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-22 20:17:17.101
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-22 20:17:18.573
+!MESSAGE Removing part descriptor with the 'org.eclipse.buildship.ui.views.taskview' id and the 'Gradle Tasks' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-22 20:17:19.100
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rlatj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2019-06-22 20:17:22.034
+!MESSAGE Removing part descriptor with the 'org.eclipse.buildship.ui.views.executionview' id and the 'Gradle Executions' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.ui 4 0 2019-06-22 20:17:23.376
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2019-06-22 20:17:23.521
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2019-06-22 20:17:33.448
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.448
+!MESSAGE Software being installed: artificial_root 1.0.0.v1561202252007
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:17:33.448
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.448
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.448
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:17:33.448
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.448
+!MESSAGE From: artificial_root 1.0.0.v1561202252007
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.448
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:17:33.448
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.449
+!MESSAGE From: artificial_root 1.0.0.v1561202252007
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.449
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:17:33.449
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.449
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:17:33.449
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2019-06-22 20:17:33.471
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\rlatj\eclipse\java-2019-03\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:23:44.150
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:23:44.175
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:23:44.938
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:23:45.025
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:24:04.190
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:24:04.205
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 2 2 2019-06-22 20:24:09.107
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.roo.ui, propertyPage: com.springsource.roo.ui.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.core 4 -1 2019-06-22 20:24:10.601
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.execution.MavenExecutionRequestPopulator
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1289)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:238)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.newExecutionRequest(MavenExecutionContext.java:92)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:125)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.NoSuchElementException
+	at java.util.Collections$EmptyIterator.next(Unknown Source)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 10 more
+!SESSION 2019-06-22 20:24:24.621 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-22 20:24:29.651
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-06-22 20:24:31.976
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-06-22 20:24:31.992
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27ca8a5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62604ed4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2019-06-22 20:24:35.085
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-06-22 20:24:43.223
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\rlatj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2019-06-22 20:24:55.340
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE Software being installed: artificial_root 1.0.0.v1561202693633
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:24:55.340
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:24:55.340
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE From: artificial_root 1.0.0.v1561202693633
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:24:55.340
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE From: artificial_root 1.0.0.v1561202693633
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:24:55.340
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:24:55.340
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2019-06-22 20:24:55.372
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\rlatj\eclipse\java-2019-03\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:25:44.797
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:25:44.813
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2019-06-22 20:30:58.464
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.ui 2 2 2019-06-22 20:31:13.188
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.roo.ui, propertyPage: com.springsource.roo.ui.projectPropertyPage)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:35:22.357
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:35:22.370
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:36:03.678
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:36:03.692
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:38:07.089
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:38:07.111
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:38:07.455
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:38:07.468
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:38:34.306
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-06-22 20:38:34.317
+!MESSAGE Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2019-06-22 20:40:08.039
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.039
+!MESSAGE Software being installed: artificial_root 1.0.0.v1561203607118
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:08.039
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.039
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.039
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:08.039
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.039
+!MESSAGE From: artificial_root 1.0.0.v1561203607118
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.039
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:08.039
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.040
+!MESSAGE From: artificial_root 1.0.0.v1561203607118
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.040
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:08.040
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.040
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:08.040
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2019-06-22 20:40:08.054
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\rlatj\eclipse\java-2019-03\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.equinox.p2.director 2 10054 2019-06-22 20:40:21.569
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE Software being installed: artificial_root 1.0.0.v1561203620759
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:21.569
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.0.1.v20181217-1554 (org.eclipse.buildship.stsmigration 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE Buildship, Eclipse Plug-ins for Gradle - STS Gradle Migration 3.1.0.v20190501-0830 (org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830)
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:21.569
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE From: artificial_root 1.0.0.v1561203620759
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.feature.group 0.0.0
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:21.569
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE From: artificial_root 1.0.0.v1561203620759
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration 3.1.0.v20190501-0830
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2019-06-22 20:40:21.569
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE From: Buildship: Eclipse Plug-ins for Gradle 3.0.1.v20181217-1554 (org.eclipse.buildship.feature.group 3.0.1.v20181217-1554)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2019-06-22 20:40:21.569
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.buildship.stsmigration [3.0.1.v20181217-1554,3.0.1.v20181217-1554]
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2019-06-22 20:40:21.575
+!MESSAGE Setup tasks were performed during startup. See 'C:\Users\rlatj\eclipse\java-2019-03\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
