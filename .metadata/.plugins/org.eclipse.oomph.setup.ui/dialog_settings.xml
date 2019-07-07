@@ -6,6 +6,7 @@
 	</section>
 	<section name="SetupWizard">
 		<section name="VariablePage">
+			<item key="fullPrompt" value="true"/>
 		</section>
 		<section name="ConfirmationPage">
 		</section>
